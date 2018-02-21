@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    tools:context="com.example.ist_mac_01.lab6.MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="273dp"
+        android:layout_y="212dp"
+        android:text="SAVE DIARY"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="276dp"
+        android:layout_y="413dp"
+        android:text="READ DIARY"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="329dp"
+        android:layout_height="113dp"
+        android:layout_x="40dp"
+        android:layout_y="36dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="328dp"
+        android:layout_height="108dp"
+        android:layout_x="45dp"
+        android:layout_y="277dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+</AbsoluteLayout>
